@@ -1,0 +1,23 @@
+.quiz{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color:rgb(232, 242, 239);
+    padding: 20px;
+}
+.quiz img{
+    height: 200px;
+    border-radius: 10px;
+}
+/* .quiz-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+} */
+.btn-test{
+    width: 100%;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: white;
+    border-radius:20px ;
+    background-color: gray;
+}
