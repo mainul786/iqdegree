@@ -1,14 +1,25 @@
 import React from 'react';
+import './Question.css';
+import { EyeSlashIcon } from '@heroicons/react/24/solid'
 
-const Question = ({topic}) => {
-    const {question, options} = topic;
- 
+
+const Question = ({ topic }) => {
+    const { question, options } = topic;
+
     return (
-        <div>
-            <p>{topic.question}</p>
+        <div className='question'>
+           <div className='topic-icon'>
+           <p>{topic.question}</p>  
+           <EyeSlashIcon className="icon" />
+            
+           </div>
+
+
+
             {
-                options.map(option =><li>{option}</li>)
+                options.map(option => <li>{option}</li>)
             }
+
         </div>
     );
 };
