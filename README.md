@@ -1,3 +1,24 @@
+# Added React Router
+# Uesing Loader and use UseLoaderData()
+# use UseNavigate() for dynamic route
+# use tostify
+# using recharts data display
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
