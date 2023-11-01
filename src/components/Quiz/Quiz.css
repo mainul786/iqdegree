@@ -18,3 +18,10 @@
     border-radius:20px ;
     background-color: rgb(64, 62, 62);
 }
+
+@media screen and (max-width: 600px) {
+.quiz img{
+    width: 100%;
+}
+    
+}

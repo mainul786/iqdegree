@@ -4,3 +4,10 @@
     gap: 30px;
     margin: 30px;
 }
+
+    
+@media screen and (max-width:600px){
+    .quiz-container{
+        grid-template-columns: 1fr;
+    }
+}
