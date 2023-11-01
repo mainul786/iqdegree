@@ -5,6 +5,7 @@ import Main from './layout/Main';
 import Home from './components/Home/Home';
 import Blog from './components/Blog/Blog';
 import QuizPratice from './components/QuizPratice/QuizPratice';
+import Static from './components/Static/Static';
 
 function App() {
   const router = createBrowserRouter([
@@ -25,6 +26,11 @@ function App() {
           path:`/quiz/:quizId`,
           loader:({params}) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
           element:<QuizPratice></QuizPratice>
+        },
+        {
+          path:'static',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element:<Static></Static>
         },
         {
           path:'*',

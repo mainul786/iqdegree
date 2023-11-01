@@ -3,6 +3,7 @@ import './Quiz.css';
 import { useNavigate } from 'react-router-dom';
 
 const Quiz= ({quiz}) => {
+    
     const {name, logo, total, id} = quiz;
     const nevigate = useNavigate();
 

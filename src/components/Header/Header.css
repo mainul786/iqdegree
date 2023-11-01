@@ -6,6 +6,10 @@
     align-items: center;
     padding: 0 10px;
 }
+.logo img{
+    height:70px;
+    color: white;
+}
 
 .header a{
     text-decoration: none;

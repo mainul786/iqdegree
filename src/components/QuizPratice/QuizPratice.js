@@ -13,7 +13,7 @@ const QuizPratice = () => {
             <h3>Quiz Topic: {name}</h3>
             <div className='topic'>
                 {
-                    questions.map(topic => <Question
+                    questions.map( topic => <Question
                         key={topic.id}
                         topic={topic}
                     ></Question>)
